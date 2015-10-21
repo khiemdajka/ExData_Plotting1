@@ -18,8 +18,8 @@ plot(dat$DateTime, dat$Global_active_power, type= "l", lwd = 1, ylab = "Global A
 
 # plot 2
 plot(dat$DateTime, dat$Sub_metering_1, type = "l", ylab = "Energy sub metering", xlab = "")
-lines(dat$DateTime, dat$Sub_metering_2, type="l", col="red")
-lines(dat$DateTime, dat$Sub_metering_3, type="l", col="blue")
+lines(dat$DateTime, dat$Sub_metering_2, type = "l", col = "red")
+lines(dat$DateTime, dat$Sub_metering_3, type = "l", col = "blue")
 legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty = 1, bty = "n", col = c("black", "red", "blue"))
 
 # plot 3
